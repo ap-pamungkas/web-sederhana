@@ -1,0 +1,17 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+header h1 {
+  /* Lebih dinamis dengan shadow */
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+
+/* Hover underline handled in JSX */
